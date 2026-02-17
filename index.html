@@ -33,7 +33,7 @@
       .raleway {
         font-family: "Raleway", sans-serif;
         font-optical-sizing: auto;
-        font-weight: 800;
+        font-weight: 700;
         font-style: normal;
       }
       .inter {
@@ -47,16 +47,27 @@
   <body>
     <!-- Header section -->
     <header
-      class="bg-[url('/Assets/Hero-bg.png')] h-screen bg-cover bg-center bg-no-repeat"
+      class="bg-[url('/Assets/Hero-bg.png')] h-screen bg-cover bg-center bg-no-repeat mb-50"
     >
-      <nav class="flex justify-between container mx-auto mt-[30px]">
-        <h2 class="raleway text-[#4E47FF]">LOGO</h2>
+      <nav
+        class="flex justify-between container mx-auto px-5 sm:px-3 pt-[20px]"
+      >
+        <h2 class="raleway text-[#4E47FF] text-[35px] font-extrabold">LOGO</h2>
         <button
-          class="raleway text-[#4E47FF] w-27 h-9 text-center content-center rounded-2xl bg-[#4E47FF] text-white"
+          class="raleway text-[#4E47FF] w-27 h-9 text-center content-center rounded-xl bg-[#4E47FF] text-white"
         >
           Sign Up
         </button>
       </nav>
+
+      <div class="raleway text-center items-center content-center h-full">
+        <h2 class="text-[65px]">Cool Dark UI Template for Webflow Agencies!</h2>
+        <button
+          class="raleway text-[#4E47FF] w-40 h-10 text-center content-center rounded-xl bg-[#4E47FF] text-white mt-5"
+        >
+          Stay Focused
+        </button>
+      </div>
     </header>
   </body>
 </html>
